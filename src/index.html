@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="main.css">
+  <script defer src="app.js"></script>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__container container">
+
+      <a href="#" class="header__logo">
+        <img src="./images/logo.svg" alt="">
+      </a>
+
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#" class="header__link">
+              HOME
+            </a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">
+              PRODUCTS
+            </a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">
+              SERVICES
+            </a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">
+              RESOURCES
+            </a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">
+              ABOUT
+            </a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">
+              CONTACT US
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__burger">
+        <button id="burger-btn" class="header__burger-btn">
+          <svg id="open-burger-image" width="32" height="32" viewBox="0 0 32 32" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <g id="Burger Menu" clip-path="url(#clip0_8_353)">
+              <g id="List">
+                <path id="Vector" d="M5 16H27" stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path id="Vector_2" d="M5 8H27" stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path id="Vector_3" d="M5 24H27" stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </g>
+            </g>
+            <defs>
+              <clippath id="clip0_8_353">
+                <rect width="32" height="32" fill="white" />
+              </clippath>
+            </defs>
+          </svg>
+          <svg id="close-burger-image" width="32" height="32" viewBox="0 0 1024 1024"
+            xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" stroke="#FFFFFF">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+              <path fill="#FFFFFF"
+                d="M195.2 195.2a64 64 0 0 1 90.496 0L512 421.504 738.304 195.2a64 64 0 0 1 90.496 90.496L602.496 512 828.8 738.304a64 64 0 0 1-90.496 90.496L512 602.496 285.696 828.8a64 64 0 0 1-90.496-90.496L421.504 512 195.2 285.696a64 64 0 0 1 0-90.496z">
+              </path>
+            </g>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="hero__container container">
+        <div class="hero__slider">
+          <div class="hero__slide active-slide" data-target="first-slide">
+            <div class="hero__slide-content">
+              <h1 class="hero__title">
+                Device Authentication
+              </h1>
+              <p class="hero__description">
+                <span>SALT Group is a world leader in authentication and security.</span> We have <br> a range of
+                services to improve user
+                authentication. <br> Discover the possibilities with SALT.
+              </p>
+              <button class="hero__button">
+                GET STARTED
+              </button>
+            </div>
+            <div class="hero__slider-image">
+              <svg width="151" height="124">
+                <use xlink:href="./images/sprite.svg#twitter-logo"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="hero__slide" data-target="second-slide">
+            <div class="hero__slide-content">
+              <h1 class="hero__title">
+                Device Authentication 2
+              </h1>
+              <p class="hero__description">
+                <span>SALT Group is a world leader in authentication and security.</span> We have <br> a range of
+                services to improve user
+                authentication. <br> Discover the possibilities with SALT.
+              </p>
+              <button class="hero__button">
+                GET STARTED
+              </button>
+            </div>
+            <div class="hero__slider-image">
+              <svg width="151" height="124">
+                <use xlink:href="./images/sprite.svg#twitter-logo"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="hero__slide" data-target="third-slide">
+            <div class="hero__slide-content">
+              <h1 class="hero__title">
+                Device Authentication 3
+              </h1>
+              <p class="hero__description">
+                <span>SALT Group is a world leader in authentication and security.</span> We have <br> a range of
+                services to improve user
+                authentication. <br> Discover the possibilities with SALT.
+              </p>
+              <button class="hero__button">
+                GET STARTED
+              </button>
+            </div>
+            <div class="hero__slider-image">
+              <svg width="151" height="124">
+                <use xlink:href="./images/sprite.svg#twitter-logo"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <ul id="pagination-list" class="hero__list">
+          <li class="hero__item">
+            <button class="hero__pagination active-pagination" data-target="first-slide"></button>
+          </li>
+          <li class="hero__item">
+            <button class="hero__pagination" data-target="second-slide"></button>
+          </li>
+          <li class="hero__item">
+            <button class="hero__pagination" data-target="third-slide"></button>
+          </li>
+        </ul>
+        <div class="hero__button-wrapper">
+          <div class="hero__button-title">
+            FIND OUT MORE
+          </div>
+          <a class="hero__scrolldown" href="#services">
+            <svg width="62" height="71">
+              <use xlink:href="./images/sprite.svg#polygon-arrow"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="about__container container">
+
+        <ul class="about__list">
+          <li class="about__item">
+            <div class="about__number">
+              126,300
+            </div>
+            <div class="about__text">
+              Identity Theft Cases Reported in Australia
+            </div>
+          </li>
+          <li class="about__item">
+            <div class="about__number">
+              $20.1bn
+            </div>
+            <div class="about__text">
+              Online Transactions per annum by&nbsp;Australians
+            </div>
+          </li>
+          <li class="about__item">
+            <div class="about__number">
+              45,511
+            </div>
+            <div class="about__text">
+              Online Fraud Cases Reported in Australia
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="services__container container">
+
+        <h2 class="services__title">
+          What We Do
+        </h2>
+        <ul class="services__list">
+          <li class="services__item">
+            <h3 class="services__item-title">
+              Device Authentication
+            </h3>
+            <p class="services__description">
+              Hardware-based device fingerprinting resilient to cloning, malware and device jailbreak/root.
+              Hardware-level control over the displayed UI independent of the device operating system. Hardware-level
+              data protection.
+            </p>
+          </li>
+          <li class="services__item">
+            <h3 class="services__item-title">
+              User Authentication
+            </h3>
+            <p class="services__description">
+              Verify the identity of users for access control with contemporary biometric connected MFA security tokens.
+            </p>
+          </li>
+          <li class="services__item">
+            <h3 class="services__item-title">
+              Transaction Authentication
+            </h3>
+            <p class="services__description">
+              High assurance out-of-band authentication of&nbsp;high impact transactions and instructions initiated
+              through
+              electronic service delivery channels. Audit trail of&nbsp;verification for non&nbsp;repudiation. Fraud
+              protection
+              against <br> man-in-the-middle and browser malware.
+            </p>
+          </li>
+          <li class="services__item">
+            <h3 class="services__item-title">
+              Contemporary authentication methods
+            </h3>
+            <p class="services__description">
+              Echidna authentication server to enable adaptive risk-based approach to security through a range of
+              methods for different levels of authentication assurance from SMS OTPs, Challenge/Response, to more
+              contemporary QR code signing and advanced connected mobile security tokens capable of transaction
+              signatures with dynamic linking of the transaction context and addition of PIN, Fingerprint and other
+              biometrics.
+            </p>
+          </li>
+          <li class="services__item">
+            <h3 class="services__item-title">
+              HSM Solutions
+            </h3>
+            <p class="services__description">
+              Reseller of Thales nShield HSMs with professional services and subject matter expertise in HSMs, key
+              ceremony procedures, and SEE code development.
+            </p>
+          </li>
+          <li class="services__item">
+            <h3 class="services__item-title">
+              Cloud &amp;&nbsp;IoT Security
+            </h3>
+            <p class="services__description">
+              Secure the identity and access of users, devices and Internet of Things connecting into the cloud. Support
+              cloud adoption and migration of applications and data into private and public clouds.
+            </p>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <section class="products">
+      <div class="products__container container">
+
+        <div class="products__block-left">
+          <h2 class="products__title">
+            Product Spotlight
+          </h2>
+          <p class="products__description">
+            Salt mSign Connected Token is a contemporary mobile security 2FA token for authentication of user identity
+            and verification of transactions independent of the delivery channel that initiated the request.
+          </p>
+          <button class="products__button">
+            MORE INFO
+          </button>
+        </div>
+        <div class="products__block-right">
+          <button id="open-popup" class="products__play-button">
+            <svg width="77" height="77">
+              <use xlink:href="./images/sprite.svg#play-button"></use>
+            </svg>
+          </button>
+          <p class="products__description">
+            Feature video
+          </p>
+          <h3 class="products__title">
+            mSign Connected token
+          </h3>
+        </div>
+        <button class="products__button btn-mobile">
+          MORE INFO
+        </button>
+
+        <div class="products__popup">
+          <div class="products__popup-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=AFaxcU4avZkk5_wB"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="contact-us">
+      <div class="contact-us__container container">
+
+        <h2 class="contact-us__title">
+          Ready <br> to get started?
+        </h2>
+
+        <form action="" id="contact-us__form" class="contact-us__form">
+          <h3 class="contact-us__title">
+            Contact us
+          </h3>
+          <label class="contact-us__label">
+            <span>First Name</span>
+            <input placeholder="First Name" type="text" class="contact-us__input" required>
+          </label>
+          <label class="contact-us__label">
+            <span>Last Name</span>
+            <input placeholder="Last Name" type="text" class="contact-us__input" required>
+          </label>
+          <label class="contact-us__label">
+            <span>Email Address</span>
+            <input placeholder="Email Address" type="email" class="contact-us__input" required>
+          </label>
+          <label class="contact-us__label">
+            <span>Your message</span>
+            <textarea placeholder="Textarea" name="message" class="contact-us__input" required></textarea>
+          </label>
+          <button class="contact-us__button" type="submit">
+            SEND
+          </button>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__container container">
+        <div class="footer__twitter-wrapper">
+          <div class="footer__twitter-header">
+            <div class="footer__twitter-logo">
+              <svg width="39" height="39">
+                <use xlink:href="./images/sprite.svg#twitter-circle"></use>
+              </svg>
+            </div>
+            <div class="footer__twitter-tag">
+              <h3 class="footer__twitter-title">
+                @saltgroup
+              </h3>
+              <div class="footer__twitter-description">
+                Twitter feed
+              </div>
+            </div>
+          </div>
+          <div class="footer__twitter-main">
+            <ul class="footer__twitter-list">
+              <li class="footer__twitter-item">
+                <div class="footer__twitter-notice">
+                  Experience more with expanded Tweets <a href="#">http://testing123.com.au</a>
+                </div>
+                <div class="footer__twitter-date">
+                  18 hours ago
+                </div>
+              </li>
+              <li class="footer__twitter-item">
+                <div class="footer__twitter-notice">
+                  Tailored Trends bring you closer <br> <a href="#">http://-testing123.com.au</a>
+                </div>
+                <div class="footer__twitter-date">
+                  12 June 2016
+                </div>
+              </li>
+              <li class="footer__twitter-item">
+                <div class="footer__twitter-notice">
+                  Our new nest. <a href="#">http://testing123.com.au</a>
+                </div>
+                <div class="footer__twitter-date">
+                  11 June 2016
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <nav class="footer__nav">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <h3 class="footer__title">
+                Navigation
+              </h3>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Home
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Products
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Services
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Resources
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                About
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                CONTACT US
+              </a>
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <h3 class="footer__title">
+                links
+              </h3>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Disclaimer
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Legal
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Environment Policy
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#">
+                Privacy
+              </a>
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <h3 class="footer__title">
+                contact sales
+              </h3>
+            </li>
+            <li class="footer__item">
+              <span>PHONE: </span>
+              <a href="tel:+61396144416">
+                +61 3 9614 4416
+              </a>
+            </li>
+            <li class="footer__item">
+              <span>EMAIL: </span>
+              <a href="mailto:sales@saltgroup.com.au">
+                sales@saltgroup.com.au
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__logo">
+          <a href="#">
+            <img src="./images/footer-logo.svg" alt="Логотип Salt">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__container-bottom container">
+        &copy;&nbsp;2017&nbsp;SALT GROUP
+        <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4.5 0L9 2.5V7.5L4.5 10L0 7.5V2.5L4.5 0Z" fill="#FF8B00" />
+        </svg>
+        ALL&nbsp;RIGHTS RESERVED. WEBSITE BY&nbsp;DORNE CREATIVE.
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
